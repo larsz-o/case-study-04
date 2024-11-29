@@ -41,8 +41,10 @@ const partA = (
 reading level, you research the population of federal inmates and decide that a survey for inmates should be written at a 5th grade reading level for maximum accessibility.</p><p>While you work on questions, you’re informed that the survey will be distributed through common-area computer kiosks in the prisons. You decide that you will create groups of questions that can be “blocked” together on short pages.</p>`,
       
       multipleSelect: false, 
-      type: "none", 
-     
+      type: "open", 
+     options: [
+  {text: `What concerns do you have right now, if any?`, conditions: {type: null, command: '', index: null}, feedback: ``}
+],
   },
   "4": {
     question: `<p>There is one major difference between the Food Service survey and the Chaplaincy Services survey was that, while everyone needs to eat food, not everyone would describe themselves as religious and/or spiritual. </p>
